@@ -16,6 +16,8 @@ public class Example1{
 		//Ex 2.3
 		int hour = 1;
 		int minute = 33;
+		int second;
+		second = hour * 60 * 60 + minute * 60;
 		
 		
 		//Practice
@@ -32,8 +34,8 @@ public class Example1{
 		System.out.print(hour);
 		System.out.print(":");
 		System.out.print(minute);
-		System.out.print(":");
-		System.out.println("Seconds since midnight" + " " + hour * 60 * 60 + minute * 60);
+		System.out.println(". ");
+		System.out.println("Seconds since midnight is" + " " + second);
 		
 		
 	}
